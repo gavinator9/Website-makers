@@ -1,0 +1,44 @@
+:root{
+	--jdeere: #207300;
+	--hawks: #002A5C;
+	--broken: url("src/tmp_Img.svg");
+}
+body{
+	background-color: #eee;
+	font-family: Arial;
+	margin: 0;
+}
+main{
+	margin-top: 4em;
+}
+.navBttn{
+	font-size: 1.2em;
+	padding: 1em;
+	display: block;
+}
+.navFlex{
+	background-color: var(--hawks);
+	display: flex;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.navFlex a{
+	color: #fff;
+	text-decoration: none;
+	transition: 0.1s;
+}
+.navFlex a:hover{
+	background-color: var(--jdeere);
+	text-decoration: underline;
+}
+.navFlex .logo{
+	aspect-ratio: 1;
+	display: block;
+	height: 3.2em;
+}
+.webName{
+	font-size: 2em;
+	padding: 0.3em;
+	margin: 0 auto 0 auto;
+}

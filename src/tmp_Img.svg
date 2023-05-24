@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.5;">
+    <path d="M400,480L400,368L336,352L256,368L176,352L112,368L112,480L400,480ZM400,32L400,336L336,320L256,336L176,320L112,336L112,112L192,32L400,32Z" style="fill:rgb(204,204,204);"/>
+    <clipPath id="_clip1">
+        <path d="M400,480L400,368L336,352L256,368L176,352L112,368L112,480L400,480ZM400,32L400,336L336,320L256,336L176,320L112,336L112,112L192,32L400,32Z"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <g id="Shield">
+            <path d="M256,160C294.437,188.687 331.677,202.265 368,176C368.147,257.828 320.328,384 256,384C191.673,383.765 143.696,257.981 144,176C185.059,204.563 221.287,180.093 256,160Z" style="fill:none;stroke:rgb(136,136,136);stroke-width:15.14px;"/>
+            <g transform="matrix(3.67312,0,0,3.67312,-776.281,-650.229)">
+                <text x="267.096px" y="267.889px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:rgb(136,136,136);">5</text>
+            </g>
+        </g>
+        <path d="M192,32L192,112L112,112L192,32Z" style="fill:rgb(238,238,238);stroke:black;stroke-width:4.17px;stroke-linejoin:round;"/>
+    </g>
+    <path d="M400,480L400,368L336,352L256,368L176,352L112,368L112,480L400,480ZM400,32L400,336L336,320L256,336L176,320L112,336L112,112L192,32L400,32Z" style="fill:none;stroke:black;stroke-width:4.17px;"/>
+</svg>
