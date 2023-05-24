@@ -1,0 +1,270 @@
+/*
+Midnight Green - #003638
+Atomic Tangerine - #F2A183
+White - #FFFFFF
+*/
+
+html * {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* #002244 is our blue #3A5C2D is our green*/
+
+body {
+    background-color: #002244;
+    margin: 0;
+}
+
+/* Header stuff */
+
+header {
+    background-color: #3A5C2D;
+    /*
+        Black #000000
+        white #ffffff - #fff
+        #333 - #333333
+        #af0 - #aaff00
+
+        #red red grn grn blu blu alpha alpha
+        #ff0000ff
+    */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.branding {
+    font-weight: bolder;
+    font-size: 2em;
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+.branding a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item {
+    font-weight: bold;
+    font-size: 1.5em;
+    /* padding: left/right top/bottom */
+    padding: 15px 10px;
+    /* padding-top: 10px */
+    /* padding: 10px */
+    /* padding: top right bottom left; */
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:last-of-type {
+    padding-right: 20px;
+}
+
+.nav-item:hover {
+    background-color: #002244;
+}
+
+.nav-item:hover a {
+    color: white;
+}
+
+/* Main Body */
+main {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+.centered {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.centeredspecial {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.centeredspecial input {
+    width: 45%;
+}
+#submit {
+    width: 10%;
+}
+.centeredspecial label {
+
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.feedback {
+    height:50%;
+}
+
+#name {
+    background-color: pink;
+}
+
+/* card styles */
+
+.deck {
+    display: flex;
+    gap: 2em;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    border: 1px solid green;
+    border-radius: 25px;
+    overflow: hidden;
+    padding-bottom: 0%;
+    height: 50%;
+}
+
+.card img {
+    width: 100%;
+    height: 50%
+}
+
+.card .card-body {
+    margin: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* Page styles */
+.btn {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #3A5C2D;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    line-height: 60px;
+}
+.btn:hover{
+    background-color: #40363f;
+    color: white;
+}
+
+/* Description styles */
+div.block {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.description-text {
+    font-size: 1.5em;
+}
+
+.accent-color {
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+    background-color: #3A5C2D;
+    color: black;
+}
+
+.reversed-color {
+    border-top: 8px solid #3A5C2D;
+    border-bottom: 8px solid #3A5C2D;
+    background-color: black;
+    color: #3A5C2D;
+}
+
+.centered-fluid {
+    text-align: center;
+    margin: auto;
+}
+
+.features .card {
+    width: 350px;
+}
+
+.platforms .brand-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.0em;
+    justify-content: center;
+    padding-left: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.platforms .brand-list li {
+    padding: 5px;
+}
+
+.platforms .brand-list i {
+    transition: 10s;
+}
+
+.platforms .brand-list i:hover {
+    font-size: 1.5em;
+}
+
+.reqs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.reqs div {
+    padding: 10px;
+    width: 350px;
+    /* text-align: left; */
+}
+
+.reqs div ul {
+    padding-left: 0;
+}
+
+.reqs div ul li {
+    list-style: none;
+}
+
+.questions ol {
+    text-align: left;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.questions {
+    margin: auto;
+}
+.extended {
+    font-size: 1.3em;
+}
+
+
+.jum {
+    height: 700px;
+    width: 900px;
+}
+
+#helphim {
+    color:antiquewhite;
+    padding: 10px;
+    background-color: #40363f;
+    margin: 10px;
+}
